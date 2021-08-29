@@ -902,7 +902,6 @@
         "key": "UseCRLF",
         "type": "bool",
         "values": [
-            true,
             false
         ]
     },
