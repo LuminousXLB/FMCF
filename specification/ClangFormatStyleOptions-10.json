@@ -12,6 +12,31 @@
         ]
     },
     {
+        "key": "ColumnLimit",
+        "type": "unsigned",
+        "values": [
+            0,
+            80,
+            120
+        ]
+    },
+    {
+        "key": "IndentWidth",
+        "type": "unsigned",
+        "values": [
+            2,
+            4
+        ]
+    },
+    {
+        "key": "TabWidth",
+        "type": "unsigned",
+        "values": [
+            4,
+            8
+        ]
+    },
+    {
         "key": "AccessModifierOffset",
         "type": "int",
         "values": [
@@ -412,15 +437,6 @@
         ]
     },
     {
-        "key": "ColumnLimit",
-        "type": "unsigned",
-        "values": [
-            0,
-            80,
-            120
-        ]
-    },
-    {
         "key": "CompactNamespaces",
         "type": "bool",
         "values": [
@@ -531,14 +547,6 @@
             "None",
             "AfterHash",
             "BeforeHash"
-        ]
-    },
-    {
-        "key": "IndentWidth",
-        "type": "unsigned",
-        "values": [
-            2,
-            4
         ]
     },
     {
@@ -888,14 +896,6 @@
         "values": [
             "Latest",
             "Auto"
-        ]
-    },
-    {
-        "key": "TabWidth",
-        "type": "unsigned",
-        "values": [
-            4,
-            8
         ]
     },
     {
