@@ -592,7 +592,10 @@
     {
         "key": "MaxEmptyLinesToKeep",
         "type": "unsigned",
-        "values": []
+        "values": [
+            1,
+            2
+        ]
     },
     {
         "key": "NamespaceIndentation",
