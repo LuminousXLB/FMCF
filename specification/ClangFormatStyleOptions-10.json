@@ -826,7 +826,10 @@
     {
         "key": "SpacesBeforeTrailingComments",
         "type": "unsigned",
-        "values": []
+        "values": [
+            1,
+            2
+        ]
     },
     {
         "key": "SpacesInAngles",
