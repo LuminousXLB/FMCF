@@ -414,7 +414,11 @@
     {
         "key": "ColumnLimit",
         "type": "unsigned",
-        "values": []
+        "values": [
+            0,
+            80,
+            120
+        ]
     },
     {
         "key": "CompactNamespaces",
