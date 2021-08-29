@@ -619,42 +619,61 @@
     {
         "key": "PenaltyBreakAssignment",
         "type": "unsigned",
-        "values": []
+        "values": [
+            2
+        ]
     },
     {
         "key": "PenaltyBreakBeforeFirstCallParameter",
         "type": "unsigned",
-        "values": []
+        "values": [
+            1,
+            19
+        ]
     },
     {
         "key": "PenaltyBreakComment",
         "type": "unsigned",
-        "values": []
+        "values": [
+            300
+        ]
     },
     {
         "key": "PenaltyBreakFirstLessLess",
         "type": "unsigned",
-        "values": []
+        "values": [
+            120
+        ]
     },
     {
         "key": "PenaltyBreakString",
         "type": "unsigned",
-        "values": []
+        "values": [
+            1000
+        ]
     },
     {
         "key": "PenaltyBreakTemplateDeclaration",
         "type": "unsigned",
-        "values": []
+        "values": [
+            10
+        ]
     },
     {
         "key": "PenaltyExcessCharacter",
         "type": "unsigned",
-        "values": []
+        "values": [
+            1000000
+        ]
     },
     {
         "key": "PenaltyReturnTypeOnItsOwnLine",
         "type": "unsigned",
-        "values": []
+        "values": [
+            60,
+            200,
+            1000
+        ]
     },
     {
         "key": "PointerAlignment",
