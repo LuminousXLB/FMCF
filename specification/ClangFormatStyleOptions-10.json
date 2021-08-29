@@ -14,7 +14,11 @@
     {
         "key": "AccessModifierOffset",
         "type": "int",
-        "values": []
+        "values": [
+            -1,
+            -2,
+            -4
+        ]
     },
     {
         "key": "AlignAfterOpenBracket",
