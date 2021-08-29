@@ -439,12 +439,18 @@
     {
         "key": "ConstructorInitializerIndentWidth",
         "type": "unsigned",
-        "values": []
+        "values": [
+            2,
+            4
+        ]
     },
     {
         "key": "ContinuationIndentWidth",
         "type": "unsigned",
-        "values": []
+        "values": [
+            2,
+            4
+        ]
     },
     {
         "key": "Cpp11BracedListStyle",
@@ -530,7 +536,10 @@
     {
         "key": "IndentWidth",
         "type": "unsigned",
-        "values": []
+        "values": [
+            2,
+            4
+        ]
     },
     {
         "key": "IndentWrappedFunctionNames",
