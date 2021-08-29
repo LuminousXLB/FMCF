@@ -1,0 +1,874 @@
+[
+    {
+        "key": "BasedOnStyle",
+        "type": "ENUM",
+        "values": [
+            "LLVM",
+            "Google",
+            "Chromium",
+            "Mozilla",
+            "WebKit",
+            "Microsoft"
+        ]
+    },
+    {
+        "key": "AccessModifierOffset",
+        "type": "int",
+        "values": []
+    },
+    {
+        "key": "AlignAfterOpenBracket",
+        "type": "ENUM",
+        "values": [
+            "Align",
+            "DontAlign",
+            "AlwaysBreak"
+        ]
+    },
+    {
+        "key": "AlignConsecutiveAssignments",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "AlignConsecutiveDeclarations",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "AlignConsecutiveMacros",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "AlignEscapedNewlines",
+        "type": "ENUM",
+        "values": [
+            "DontAlign",
+            "Left",
+            "Right"
+        ]
+    },
+    {
+        "key": "AlignOperands",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "AlignTrailingComments",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "AllowAllArgumentsOnNextLine",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "AllowAllConstructorInitializersOnNextLine",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "AllowAllParametersOfDeclarationOnNextLine",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "AllowShortBlocksOnASingleLine",
+        "type": "ENUM",
+        "values": [
+            "Never",
+            "Empty",
+            "Always"
+        ]
+    },
+    {
+        "key": "AllowShortCaseLabelsOnASingleLine",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "AllowShortFunctionsOnASingleLine",
+        "type": "ENUM",
+        "values": [
+            "None",
+            "InlineOnly",
+            "Empty",
+            "Inline",
+            "All"
+        ]
+    },
+    {
+        "key": "AllowShortIfStatementsOnASingleLine",
+        "type": "ENUM",
+        "values": [
+            "Never",
+            "WithoutElse",
+            "Always"
+        ]
+    },
+    {
+        "key": "AllowShortLambdasOnASingleLine",
+        "type": "ENUM",
+        "values": [
+            "None",
+            "Empty",
+            "Inline",
+            "All"
+        ]
+    },
+    {
+        "key": "AllowShortLoopsOnASingleLine",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "AlwaysBreakAfterDefinitionReturnType",
+        "type": "ENUM",
+        "values": [
+            "None",
+            "All",
+            "TopLevel"
+        ]
+    },
+    {
+        "key": "AlwaysBreakAfterReturnType",
+        "type": "ENUM",
+        "values": [
+            "None",
+            "All",
+            "TopLevel",
+            "AllDefinitions",
+            "TopLevelDefinitions"
+        ]
+    },
+    {
+        "key": "AlwaysBreakBeforeMultilineStrings",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "AlwaysBreakTemplateDeclarations",
+        "type": "ENUM",
+        "values": [
+            "No",
+            "MultiLine",
+            "Yes"
+        ]
+    },
+    {
+        "key": "BinPackArguments",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "BinPackParameters",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "BraceWrapping",
+        "type": "NEST",
+        "values": [
+            {
+                "key": "AfterCaseLabel",
+                "type": "bool",
+                "values": [
+                    true,
+                    false
+                ]
+            },
+            {
+                "key": "AfterClass",
+                "type": "bool",
+                "values": [
+                    true,
+                    false
+                ]
+            },
+            {
+                "key": "AfterControlStatement",
+                "type": "ENUM",
+                "values": [
+                    "Never",
+                    "MultiLine",
+                    "Always"
+                ]
+            },
+            {
+                "key": "AfterEnum",
+                "type": "bool",
+                "values": [
+                    true,
+                    false
+                ]
+            },
+            {
+                "key": "AfterFunction",
+                "type": "bool",
+                "values": [
+                    true,
+                    false
+                ]
+            },
+            {
+                "key": "AfterNamespace",
+                "type": "bool",
+                "values": [
+                    true,
+                    false
+                ]
+            },
+            {
+                "key": "AfterObjCDeclaration",
+                "type": "bool",
+                "values": [
+                    true,
+                    false
+                ]
+            },
+            {
+                "key": "AfterStruct",
+                "type": "bool",
+                "values": [
+                    true,
+                    false
+                ]
+            },
+            {
+                "key": "AfterUnion",
+                "type": "bool",
+                "values": [
+                    true,
+                    false
+                ]
+            },
+            {
+                "key": "AfterExternBlock",
+                "type": "bool",
+                "values": [
+                    true,
+                    false
+                ]
+            },
+            {
+                "key": "BeforeCatch",
+                "type": "bool",
+                "values": [
+                    true,
+                    false
+                ]
+            },
+            {
+                "key": "BeforeElse",
+                "type": "bool",
+                "values": [
+                    true,
+                    false
+                ]
+            },
+            {
+                "key": "IndentBraces",
+                "type": "bool",
+                "values": [
+                    true,
+                    false
+                ]
+            },
+            {
+                "key": "SplitEmptyFunction",
+                "type": "bool",
+                "values": [
+                    true,
+                    false
+                ]
+            },
+            {
+                "key": "SplitEmptyRecord",
+                "type": "bool",
+                "values": [
+                    true,
+                    false
+                ]
+            },
+            {
+                "key": "SplitEmptyNamespace",
+                "type": "bool",
+                "values": [
+                    true,
+                    false
+                ]
+            }
+        ]
+    },
+    {
+        "key": "BreakAfterJavaFieldAnnotations",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "BreakBeforeBinaryOperators",
+        "type": "ENUM",
+        "values": [
+            "None",
+            "NonAssignment",
+            "All"
+        ]
+    },
+    {
+        "key": "BreakBeforeBraces",
+        "type": "ENUM",
+        "values": [
+            "Attach",
+            "Linux",
+            "Mozilla",
+            "Stroustrup",
+            "Allman",
+            "Whitesmiths",
+            "GNU",
+            "WebKit",
+            "Custom"
+        ]
+    },
+    {
+        "key": "BreakBeforeTernaryOperators",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "BreakConstructorInitializers",
+        "type": "ENUM",
+        "values": [
+            "BeforeColon",
+            "BeforeComma",
+            "AfterColon"
+        ]
+    },
+    {
+        "key": "BreakInheritanceList",
+        "type": "ENUM",
+        "values": [
+            "BeforeColon",
+            "BeforeComma",
+            "AfterColon"
+        ]
+    },
+    {
+        "key": "BreakStringLiterals",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "ColumnLimit",
+        "type": "unsigned",
+        "values": []
+    },
+    {
+        "key": "CompactNamespaces",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "ConstructorInitializerAllOnOneLineOrOnePerLine",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "ConstructorInitializerIndentWidth",
+        "type": "unsigned",
+        "values": []
+    },
+    {
+        "key": "ContinuationIndentWidth",
+        "type": "unsigned",
+        "values": []
+    },
+    {
+        "key": "Cpp11BracedListStyle",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "DeriveLineEnding",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "DerivePointerAlignment",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "DisableFormat",
+        "type": "bool",
+        "values": [
+            false
+        ]
+    },
+    {
+        "key": "ExperimentalAutoDetectBinPacking",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "FixNamespaceComments",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "IncludeBlocks",
+        "type": "ENUM",
+        "values": [
+            "Preserve",
+            "Merge",
+            "Regroup"
+        ]
+    },
+    {
+        "key": "IndentCaseLabels",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "IndentGotoLabels",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "IndentPPDirectives",
+        "type": "ENUM",
+        "values": [
+            "None",
+            "AfterHash",
+            "BeforeHash"
+        ]
+    },
+    {
+        "key": "IndentWidth",
+        "type": "unsigned",
+        "values": []
+    },
+    {
+        "key": "IndentWrappedFunctionNames",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "JavaScriptQuotes",
+        "type": "ENUM",
+        "values": [
+            "Leave",
+            "Single",
+            "Double"
+        ]
+    },
+    {
+        "key": "JavaScriptWrapImports",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "KeepEmptyLinesAtTheStartOfBlocks",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "Language",
+        "type": "ENUM",
+        "values": [
+            "None",
+            "Cpp",
+            "CSharp",
+            "Java",
+            "JavaScript",
+            "ObjC",
+            "Proto",
+            "TableGen",
+            "TextProto"
+        ]
+    },
+    {
+        "key": "MaxEmptyLinesToKeep",
+        "type": "unsigned",
+        "values": []
+    },
+    {
+        "key": "NamespaceIndentation",
+        "type": "ENUM",
+        "values": [
+            "None",
+            "Inner",
+            "All"
+        ]
+    },
+    {
+        "key": "ObjCBinPackProtocolList",
+        "type": "ENUM",
+        "values": [
+            "Auto",
+            "Always",
+            "Never"
+        ]
+    },
+    {
+        "key": "ObjCBlockIndentWidth",
+        "type": "unsigned",
+        "values": []
+    },
+    {
+        "key": "ObjCSpaceAfterProperty",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "ObjCSpaceBeforeProtocolList",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "PenaltyBreakAssignment",
+        "type": "unsigned",
+        "values": []
+    },
+    {
+        "key": "PenaltyBreakBeforeFirstCallParameter",
+        "type": "unsigned",
+        "values": []
+    },
+    {
+        "key": "PenaltyBreakComment",
+        "type": "unsigned",
+        "values": []
+    },
+    {
+        "key": "PenaltyBreakFirstLessLess",
+        "type": "unsigned",
+        "values": []
+    },
+    {
+        "key": "PenaltyBreakString",
+        "type": "unsigned",
+        "values": []
+    },
+    {
+        "key": "PenaltyBreakTemplateDeclaration",
+        "type": "unsigned",
+        "values": []
+    },
+    {
+        "key": "PenaltyExcessCharacter",
+        "type": "unsigned",
+        "values": []
+    },
+    {
+        "key": "PenaltyReturnTypeOnItsOwnLine",
+        "type": "unsigned",
+        "values": []
+    },
+    {
+        "key": "PointerAlignment",
+        "type": "ENUM",
+        "values": [
+            "Left",
+            "Right",
+            "Middle"
+        ]
+    },
+    {
+        "key": "ReflowComments",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "SortIncludes",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "SortUsingDeclarations",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "SpaceAfterCStyleCast",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "SpaceAfterLogicalNot",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "SpaceAfterTemplateKeyword",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "SpaceBeforeAssignmentOperators",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "SpaceBeforeCpp11BracedList",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "SpaceBeforeCtorInitializerColon",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "SpaceBeforeInheritanceColon",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "SpaceBeforeParens",
+        "type": "ENUM",
+        "values": [
+            "Never",
+            "ControlStatements",
+            "NonEmptyParentheses",
+            "Always"
+        ]
+    },
+    {
+        "key": "SpaceBeforeRangeBasedForLoopColon",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "SpaceBeforeSquareBrackets",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "SpaceInEmptyBlock",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "SpaceInEmptyParentheses",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "SpacesBeforeTrailingComments",
+        "type": "unsigned",
+        "values": []
+    },
+    {
+        "key": "SpacesInAngles",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "SpacesInCStyleCastParentheses",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "SpacesInConditionalStatement",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "SpacesInContainerLiterals",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "SpacesInParentheses",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "SpacesInSquareBrackets",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "Standard",
+        "type": "ENUM",
+        "values": [
+            "Latest",
+            "Auto"
+        ]
+    },
+    {
+        "key": "TabWidth",
+        "type": "unsigned",
+        "values": []
+    },
+    {
+        "key": "UseCRLF",
+        "type": "bool",
+        "values": [
+            true,
+            false
+        ]
+    },
+    {
+        "key": "UseTab",
+        "type": "ENUM",
+        "values": [
+            "Never",
+            "ForIndentation",
+            "ForContinuationAndIndentation",
+            "Always"
+        ]
+    }
+]
