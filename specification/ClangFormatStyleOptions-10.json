@@ -890,7 +890,10 @@
     {
         "key": "TabWidth",
         "type": "unsigned",
-        "values": []
+        "values": [
+            4,
+            8
+        ]
     },
     {
         "key": "UseCRLF",
